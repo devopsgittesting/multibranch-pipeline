@@ -1,9 +1,9 @@
-# Build and Deploy nodejs application on EC2 instance - Freestyle 
+
 
 # Pre-requisites
 
 1. A Jenkins server 
-1. A EC2 instance (Application server) and deploy node.js 
+1. (Application server) and deploy node.js 
 
 ### Setup nodejs packages on jenkins (needed for build) and application server (needed to deploy)
 1. Enable nodejs packages on Linux server 
@@ -22,10 +22,6 @@
 
 Setup Jenkins job 
 
-## Fork nodejs applicaton onto your repository 
-
-Github URL: https://github.com/ravdy/nodejs.git
-
 Using simple "hello world" application from the [nodejs.org](https://nodejs.org/en/docs/guides/getting-started-guide/) website
 
 
@@ -33,7 +29,7 @@ Using simple "hello world" application from the [nodejs.org](https://nodejs.org/
 
 1. Create the new FreeStyle Project 
    ```sh
-   Git URL - https://github.com/ravdy/nodejs.git
+   Git URL - https://github.com/devopsgittesting/multibranch-pipeline.git
    ```
   BUILD --> Execute Shell npm install
    ```sh 
