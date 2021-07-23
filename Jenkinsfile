@@ -19,7 +19,7 @@ pipeline {
          stage("Deploy application") { 
          steps { 
            sh 'echo "deploying application..."'
-           sh "cd /var/lib/jenkins/workspace/test-multibranch-pipeline_* && node server.js"
+   
          }
 
      }
