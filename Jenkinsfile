@@ -19,6 +19,7 @@ pipeline {
          stage("Deploy application") { 
          steps { 
            sh 'echo "deploying application..."'
+           sh "cd /var/lib/jenkins/workspace/* && node server.js 
          }
 
      }
